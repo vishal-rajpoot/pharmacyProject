@@ -1,0 +1,1 @@
+export const displayitem = process.env.REACT_APP_ITEM_PER_PAGE||5

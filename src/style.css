@@ -1,0 +1,346 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+        'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+        'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+
+/* ---------------------------------------------------------------------------------- */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    --color-background: hsl(216, 8%, 12%);
+    --color-blue: hsl(208, 100%, 50%);
+    --color-gray: hsl(210, 3%, 25%);
+    --color-white: white;
+    --border-radius: 5px;
+
+    background-color: var(--color-background);
+    color: var(--color-white);
+}
+
+html,
+body,
+#root {
+    height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+ul {
+    margin: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+input,
+button {
+    font-size: 1rem;
+    color: inherit;
+    border: none;
+    border-radius: var(--border-radius);
+}
+
+.chat-header-title{
+    text-transform: capitalize;
+    font-weight: bold;
+    padding-top: 5px;
+    border-bottom: 1px solid #0088ff;
+    padding: 4px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+.chat-header-appointment-btn{
+    position: absolute;
+    left: 78%;
+
+}
+
+/* ----------------------------------------------------------------------------------- */
+.container {
+    height: 100%;
+    /* max-width: 600px; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    /* padding: 32px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+.messages-container {
+    width: 100%;
+    padding: 16px;
+    flex-grow: 1;
+    /* border: 1px solid var(--color-gray); */
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+/* ----------------------------------------------------------------------------------- */
+.chat-room-list {
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    width: 100%;
+    /* gap: 8px; */
+    color: white;
+}
+
+.chat-room-list li {
+    height: 50px;
+    color: black;
+    /* background: var(--color-gray); */
+    flex: 1 1 calc(50% - 4px);
+    border-radius: var(--border-radius);
+    margin: 10px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+/* ------------------------------------------------------------------------------ */
+.message-input-container {
+    display: flex;
+    gap: 4px;
+}
+
+.message-input {
+    padding: 12px 8px;
+    flex: 1;
+    background: var(--color-gray);
+    border-radius: var(--border-radius);
+    color: white;
+}
+
+.send-message {
+    padding: 12px 14px;
+    background: var(--color-blue);
+    border-radius: var(--border-radius);
+    cursor: pointer;
+}
+/* --------------------------------------------------------------------------- */
+.message-list-container {
+    margin-bottom: 16px;
+    flex: 1;
+    overflow: scroll;
+}
+
+.message-list {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.message {
+    padding: 8px 16px;
+    margin-bottom: 8px;
+    background: var(--color-gray);
+    border-radius: var(--border-radius);
+    text-align: left;
+    color: white;
+}
+
+.own-message {
+    background: var(--color-blue);
+    align-self: flex-end;
+    text-align: right;
+}
+
+.sender {
+    margin-bottom: 8px;
+}
+
+.doctor-img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.patient-chat-room li{
+    text-transform: capitalize;
+    padding: 20px;
+    background-color: black;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-image: url('https://cdn.pixabay.com/photo/2017/01/31/22/32/doctor-2027768__340.png');
+
+}
+
+.doctor-chat-room li{
+    text-transform: capitalize;
+}
+.chatroom-img{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.user-btn{
+    /* background-color: cyan; */
+    width: 110px;
+}
+.unreadmsg-span{
+    color: blue;
+    font-weight: bold;
+}
+
+
+.order-process-model{
+    width: 95%;
+    height: 100%;
+    justify-content: space-between;
+}
+.confirm-order-process-model{
+    width: 100%;
+    height: 100%;
+}
+
+
+.order-processing-header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.model-body p{
+    cursor: pointer;
+}
+.react-select{
+    z-index: 999;
+}
+.react-select-genericname{
+    z-index: 900;
+}
+.react-select-brandname{
+    z-index: 899;
+}
+.book-appointment-btn-wrapper{
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+}
+.book-appointment-btn{
+    background-color: #082161;
+    color: white;
+    padding: 10px;
+    margin-top: 30px;
+}
+.modal-head-patient-detail{
+    display: flex;
+    justify-content: space-between;
+}
+.place-order-btn-wrapper{
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.modal-reset-order{
+    background-color: #D22429;
+    color: white;
+    font-weight: bold;
+    padding: 8px;
+    width: 49%;
+    font-size: 17px;
+}
+.modal-placeorder-btn{
+    background-color: #082161;
+    font-weight: bold;
+    font-size: 17px;
+    color: white;
+    padding: 8px;
+    width: 49%;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.order-processing-table{
+    margin-bottom: 30px;
+}
+.op-quantity{
+    width: 85px;
+    padding: 6px;
+    outline: none;
+}
+.model-go-back-wrapper{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.cnfrm-placer-order-btn{
+    background-color: rgb(28, 155, 28);
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+}
+.op-del-col{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.op-edit-col{
+    text-align: center;
+}
+.op-edit-icon{
+    font-size: 18px;
+    color: green;
+    cursor: pointer;
+}
+.itemlist-qty{
+    padding: 10px;
+    width: 120px;
+}
+.quantity-error-para{
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+    position: absolute;
+    top: 27%;
+    left: 58%;
+}
+.cnfrm-quantity-error{
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+    text-align: right;
+    margin-right: 10px;
+    padding-bottom: 5px;
+}
+.search-wrapper{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    padding: 8px;
+    margin-bottom: 10px;
+}

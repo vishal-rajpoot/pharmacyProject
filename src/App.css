@@ -1,0 +1,81 @@
+.border-input{
+    border: 1px solid gray;
+}
+.success-msg{
+    color: navy;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+}
+.delete-all-wrapper{
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 90%;
+    margin-top: 10px;
+    padding: 4px;
+    color: white;
+    background-color: #D22429;
+    border-radius: 4px;
+}
+.add-category-input{
+    padding: 10px;
+    border: 1px solid black;
+    margin-top: 10px;
+    width: 450px;
+}
+.add-category-btn{
+    background-color: rgb(39, 189, 39);
+    padding: 10px;
+    color: white;
+}
+.delete-all-patient{
+    background-color: #D22429;
+    color: white;
+    padding: 6px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.loader-line{
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
+#inv-topbar{
+    /* background-color: teal; */
+    display: flex;
+}
+.inv-search-box{
+    margin-top: 8px;
+    padding: 4px;
+    margin-left: 20px;
+}
+.radio-btn-wrapper{
+    margin-top: 11px;
+}
+.rmv-category-trash-icon{
+    font-size: 13px;
+    color: red;
+    cursor: pointer;
+    margin-left: 13px;
+    background-color: red;
+    color: white;
+    padding: 5px;
+}
+.disable-delete-category{
+    font-size: 13px;
+    color: gray;
+    margin-left: 13px;
+    pointer-events: none;
+    background-color: gray;
+    color: white;
+    padding: 5px;
+}
+.generic-name-cursor-pointer{
+    cursor: pointer;
+}
+.remove-item-btn{
+    color: white;
+    background-color: red;
+}

@@ -1,0 +1,166 @@
+
+.contentDash {
+    position: relative;
+    margin-top: 1.5%;
+    margin-right: 60%;
+    color: #082161;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box1 {
+    width: 254px;
+    height: 125px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    position: relative;
+    left: 9%;
+}
+
+.box2 {
+    width: 254px;
+    height: 125px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    position: relative;
+    left: 6%;
+}
+
+.box3 {
+    width: 254px;
+    height: 125px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    position: relative;
+    left: 3%;
+}
+
+.box4 {
+    width: 254px;
+    height: 125px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    position: relative;
+}
+
+.purple {
+    background: #6F42C1;
+    border-radius: 10.3888px;
+    position: absolute;
+    width: 60px;
+    height: 48px;
+    left: 6%;
+    top: 6%;
+}
+
+.yellow {
+    background: #FD7E14;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    position: absolute;
+    width: 60px;
+    height: 48px;
+    left: 6%;
+    top: 6%;
+}
+.green{
+    background: #198754;
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+border-radius: 8px;
+    position: absolute;
+    width: 60px;
+    height: 48px;
+    left: 6%;
+    top: 6%;
+}
+.blue{
+    background: #0D6EFD;
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+border-radius: 8px;
+        position: absolute;
+        width: 60px;
+        height: 48px;
+        left: 6%;
+        top: 6%;
+}
+.color
+{
+    display: flex;
+}
+.app650{
+    position: absolute;
+    left: 45%;
+    color: rgba(0, 0, 0, 0.69);
+    font-weight: 700;
+}
+.apps650{
+    position: absolute;
+    left: 60%;
+    top: 20%;
+    color: rgba(0, 0, 0, 0.69);
+    font-weight: 700;
+}
+.purple1{
+    background: rgba(111, 66, 193, 0.71);
+    width: 254px;
+    height: 27px;
+    position: absolute;
+    top: 78%;
+}
+.apps6750{
+    position: absolute;
+    left: 45%;
+    top: 20%;
+    color: rgba(0, 0, 0, 0.69);
+    font-weight: 700;
+}
+.apps6500{
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    color: rgba(0, 0, 0, 0.69);
+    font-weight: 700;
+}
+.yellow1{
+    
+background: rgba(253, 126, 20, 0.71);
+    width: 254px;
+    height: 27px;
+    position: absolute;
+    top: 78%;
+}
+.green1{
+    background: rgba(25, 135, 84, 0.71);
+    width: 254px;
+    height: 27px;
+    position: absolute;
+    top: 78%;
+}
+.blue1{
+    background: rgba(13, 110, 253, 0.71);
+    width: 254px;
+    height: 27px;
+    position: absolute;
+    top: 78%;
+}
+.purpleicon{
+    margin-top: 10%;
+}
+.yellowicon{
+    margin-top: 10%;
+}
+.greenicon{
+    margin-top: 10%;
+}
+.blueicon{
+    margin-top: 20%;
+}

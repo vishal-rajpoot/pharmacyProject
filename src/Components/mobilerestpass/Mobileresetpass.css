@@ -1,0 +1,99 @@
+@media screen and (max-width: 1000px){
+    .forgotpass {
+        position: absolute;
+        color:#ffffff;
+        bottom: 100%;
+        left: 30%;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 46px;
+    }
+    .forgotyrpass{
+        position: absolute;
+      
+        left: 25%;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 46px;
+        color: #082161;;
+    }
+    .forgotpasslogo{
+        position: absolute;
+        width: 30vh;
+        top: 8%;
+        left: 20%;
+    }
+    .forgotpasscontent {
+        position: absolute;
+        top: 35%;
+        left: 15%;
+        font-size: 15px;
+        font-weight: 700;
+        color: rgba(8, 33, 97, 0.66);
+    }
+    .forgotpasscontent1 {
+        position: absolute;
+        top: 37%;
+        left: 15%;
+        font-size: 15px;
+        font-weight: 700;
+        color: rgba(8, 33, 97, 0.66);
+        line-height: 30px;
+    }
+    .forgotpasscontent2 {
+        position: absolute;
+        top: 39%;
+        left: 15%;
+        font-size: 15px;
+        font-weight: 700;
+        color: rgba(8, 33, 97, 0.66);
+        line-height: 40px;
+    }
+    .rectanglefogot{
+        position: absolute;
+        top: 12.5%;
+        height: 100vh;
+        width: 100vw;
+        background-color: #ffffff;
+        border: 1px solid rgba(0, 0, 0, 0.14);
+   
+    }
+    .mobileemail{
+        position: absolute;
+        top: 47%;
+        left: 17%;
+        font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+color: rgba(0, 0, 0, 0.44);
+    }
+  .mobileemail1{
+      position: absolute;
+      top: 51%;
+      left: 16.5%;
+      background: #FFFFFF;
+border: 1.33621px solid rgba(45, 42, 175, 0.4);
+border-radius: 10.6897px;
+height: 6vh;
+width: 60vw;
+  }
+  .sendemail{
+      position: absolute;
+      top: 60%;
+      left: 17%;
+      width: 62vw;
+      height: 7vh;
+      background: #3F51B5;
+border-radius: 5px;
+color: white;
+font-weight: 700;
+text-align: center;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+    .forgotpass, .forgotyrpass, .forgotpasslogo,  .forgotpasscontent,  .forgotpasscontent2,    .forgotpasscontent1, .mobileemail,  .sendemail,   .mobileemail1{
+        display: none;
+    }
+}
+

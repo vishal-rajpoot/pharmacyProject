@@ -1,0 +1,13 @@
+     <svg width="40" height="40" viewBox="0 0 60 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="60" height="48" rx="10.3888" fill="#6F42C1" />
+                                <rect x="14.0962" y="6.09619" width="31.1347" height="35.7655" rx="3.12625" fill="white" stroke="white"  strok-wWidth="0.192385" stroke-dasharray="0.96 0.96" />
+                                <rect x="17.2498" y="8.62573" width="24.8294" height="8.30196" rx="1.49098" fill="#6F42C1" stroke="white" strok-wWidth="0.288577" />
+                                <rect x="17.3279" y="19.4334" width="6.20441" height="4.90581" rx="2.45291" fill="#6F42C1" stroke="white" strok-wWidth="0.288577" />
+                                <rect x="17.3279" y="26.8406" width="6.20441" height="4.90581" rx="2.45291" fill="#6F42C1" stroke="white" strok-wWidth="0.288577" />
+                                <path d="M17.3279 36.7007C17.3279 35.346 18.4261 34.2478 19.7808 34.2478H30.1575C31.5122 34.2478 32.6104 35.346 32.6104 36.7007C32.6104 38.0554 31.5122 39.1536 30.1575 39.1536H19.7808C18.4261 39.1536 17.3279 38.0554 17.3279 36.7007Z" fill="#6F42C1" stroke="white" strokeWidth="0.288577" />
+                                <rect x="26.5857" y="19.4334" width="6.20441" height="4.90581" rx="2.45291" fill="#6F42C1" stroke="white" stroke-width="0.288577" />
+                                <rect x="26.5857" y="26.8406" width="6.20441" height="4.90581" rx="2.45291" fill="#6F42C1" stroke="white" stroke-width="0.288577" />
+                                <rect x="35.8435" y="19.4334" width="6.20441" height="4.90581" rx="2.45291" fill="#6F42C1" stroke="white" stroke-width="0.288577" />
+                                <rect x="35.8435" y="26.8406" width="6.20441" height="4.90581" rx="2.45291" fill="#6F42C1" stroke="white" stroke-width="0.288577" />
+                                <rect x="35.8435" y="34.2478" width="6.20441" height="4.90581" rx="2.45291" fill="#6F42C1" stroke="white" stroke-width="0.288577" />
+                            </svg>

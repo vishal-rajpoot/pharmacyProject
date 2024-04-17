@@ -1,0 +1,11 @@
+.image{
+    position: absolute;
+    left: 10%;
+    top: 100px;
+   
+}
+@media screen and (max-width: 1000px){
+    .image{
+        display: none;
+    }
+}

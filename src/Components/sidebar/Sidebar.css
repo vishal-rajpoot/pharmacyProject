@@ -1,0 +1,263 @@
+.myClass  span {
+    display:none;    
+}
+
+.noDisplaySpan span {
+    display: none;
+}
+.noDisplaySvg svg {
+    display: none;
+}
+
+
+.dash {
+ margin-top: 20px;
+
+}
+.dash1, .dash2, .dash3 {
+    width: 28px;
+    height: 3px;
+    background-color: #2D2AAF;
+    margin: 6px 0;
+    margin-left: 140px;
+  
+}
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    white-space: nowrap;
+  }
+  .sidebar a {
+    display: block;
+    height: 2vh;
+    padding: 16px;
+    text-decoration: none;
+  }
+.dashboard1 {
+    color: #082161;
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+.dashboard {
+    display: flex; 
+    flex-direction: row;
+  justify-content: center;
+
+}
+.home {
+    position: absolute;
+    top: 10.2%;
+    height: 2.vh;
+    left: 20%;
+}
+.appointment {
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+}
+
+.appointment1 {
+    color: rgba(77, 77, 77, 0.69);
+    font-weight: 450;
+    font-size: 16px;
+    margin-left: 35px;
+}
+/* .vector {
+    position: absolute;
+    top: 9.5%;
+    height: 2vh;
+    left: 20%;
+} */
+.staff {
+    display: flex; 
+    flex-direction: row;
+
+}
+.staff1 {
+    color: rgba(77, 77, 77, 0.69);
+    font-weight: 450;
+    font-size: 16px;
+    margin-left: 55px;
+    margin-top: 15px;
+}
+.medicalorders {
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+}
+.medical {
+    color: rgba(77, 77, 77, 0.69);
+    font-weight: 450;
+    font-size: 16px;
+    margin-left: 50px;
+}
+.chat {
+    display: flex; 
+    flex-direction: row;
+
+}
+.chat1{
+    color: rgba(77, 77, 77, 0.69);
+    font-weight: 450;
+    font-size: 16px;
+    margin-left: 56px;
+}
+.patients{
+    display: flex; 
+    flex-direction: row;
+}
+.patients1{
+    color: rgba(77, 77, 77, 0.69);
+    font-weight: 450;
+    font-size: 16px;
+    margin-left: 10px;
+}
+.inventor{
+    display: flex; 
+    flex-direction: row;
+}
+.inventor1{
+    color: rgba(77, 77, 77, 0.69);
+    font-weight: 450;
+    font-size: 16px;
+    margin-left: 60px;
+}
+.revenue {
+    display: flex; 
+    flex-direction: row;
+}
+.revenue1{
+    color: rgba(77, 77, 77, 0.69);
+    font-weight: 450;
+    font-size: 16px;
+    margin-left: 60px;
+}
+.setting{
+    display: flex; 
+    flex-direction: row;
+}
+.setting1 {
+    color: rgba(77, 77, 77, 0.69);
+    font-weight: 450;
+    font-size: 16px;
+    margin-left: 60px;
+}
+.searchhere {
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.07);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    height: 4vh;
+    width: 16vw;
+}
+.searchinput{
+    position: absolute;
+    top: 1.5%;
+    left: 30%;
+}
+.Vector1 {
+    position: absolute;
+    left: 300%;
+    top: 22%;
+}
+.Vectorbell {
+    position: absolute;
+    left: 315%;
+    top: 22%;
+}
+.Vectorbellleft {
+    position: absolute;
+    left: 314.5%;
+    top: 22%;
+}
+.Vectorbellright {
+    position: absolute;
+    left: 321.5%;
+    top: 22%;
+}
+.Vectorbottom {
+    position: absolute;
+    left: 318.1%;
+    top: 75%;
+}
+.topimage {
+    position: absolute;
+    left: 330%;
+    height: 5vh;
+    top: 5%;
+}
+.alexander {
+    position: absolute;
+    color: #082161;
+    font-weight: 700;
+    left: 355%;
+    top: 20%;
+}
+.admin {
+    position: absolute;
+    color: #082161;
+    font-weight: 400;
+    font-size: 80%;
+    left: 355%;
+    top: 70%;
+    color: rgba(0, 0, 0, 0.95);;
+}
+.appimage{
+    position: absolute;
+    top:10%;
+}
+.appointimage{
+    position: absolute;
+    top: 10.2%;
+    height: 5vh;
+    left: 3000%;
+}
+.staffimage {
+    position: absolute;
+    top: 22.9%;
+    height: 2.5vh;
+    left: 20%;
+}
+.appointimage {
+    position: absolute;
+    top: 16.9%;
+    height: 2.5vh;
+    left: 20%;
+}
+.medicalorderimage{
+    position: absolute;
+    left: 20%;
+    top: 29%;
+}
+.chatimage {
+    position: absolute;
+    left: 20.5%;
+    top: 35.3%;
+}
+.patientimage{
+    position: absolute;
+    left: 20.5%;
+    top: 41.9%;
+}
+.inventorimage {
+    position: absolute;
+    left: 20.5%;
+    top: 47.7%;
+}
+.revenueimage{
+    position: absolute;
+    left: 20.5%;
+    top: 53.7%;
+}
+.settingimage{
+    position: absolute;
+    left: 20.5%;
+    top: 60%;
+}

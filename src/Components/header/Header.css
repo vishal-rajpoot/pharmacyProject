@@ -1,0 +1,35 @@
+
+.header {
+    width: 99.9%;
+    border: 1px solid white;
+    height: 8vh;
+    background: #FFFFFF;
+border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+position: sticky;
+}
+.logo2{
+
+position: absolute;
+left: 2.78%;
+right: 93.33%;
+top: 0.5%;
+}
+.Qp{
+    position: absolute;
+    left: 7%;
+    color: #082161;
+    font-family: 'Lato';
+    font-weight: 700;
+}
+    /* @media only screen and (max-width: 1000px){
+        .logo2{
+            position: absolute;
+            left: 40%;
+            top: 3%;
+            width: 20vw;
+            border-radius: 20%;
+        }
+        .Qp{
+            display: none;
+        }
+    } */

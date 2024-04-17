@@ -1,0 +1,51 @@
+.enteremail2 {
+    position: absolute; 
+    top: 23%;
+    left: 59.4%;
+    font-weight: 500;
+    font-size: 14px;
+    color: rgba(8, 33, 97, 0.66);
+}
+.rypemail1{
+    position: absolute;
+    top: 33%;
+    left: 60%;
+    font-weight: 500;
+    color: rgba(8, 33, 97, 0.66);
+}
+.rypemailinput1 {
+    position: absolute;
+    top: 37%;
+    left: 59.5%;
+    font-weight: 500;
+    width: 25vw;   
+    height: 5vh; 
+    border: 1px solid rgba(45, 42, 175, 0.19);
+    border-radius: 8px;
+    text-align: center;
+    background-color: #ffffff;
+}
+.rypsend1 {
+    position: absolute;
+    top: 46%;
+    left: 59.7%;
+    width: 25.3vw;
+    height: 5vh;
+    background-color: #3F51B5;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 1000px) {
+    /* body {
+        background-image: url('Rectangle 203.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 1vw;
+        height: 1vh;
+        } */
+        .ryp, .enteremail, .enteremail2, .rypemail1, .rypemailinput1, .rypsend1 {
+            display: none;
+        }
+    }

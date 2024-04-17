@@ -1,0 +1,106 @@
+
+
+.container {
+    display: flex;
+
+}
+
+.upcomingAppointment {
+    position: relative;
+    width: 619px;
+    height: 279px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    left: 20%;
+    margin-top: 2%;
+}
+
+.doctorList {
+    position: relative;
+    width: 372px;
+    height: 279px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    left: 28%;
+    margin-top: 2%;
+}
+
+.ua {
+    display: flex;
+}
+
+.upApp {
+    color: #082161;
+    font-weight: 700;
+    font-size: 20px;
+    position: absolute;
+    top: 4%;
+    left: 4%;
+}
+
+.upAppViewall {
+    right: 4%;
+    position: absolute;
+    top: 4%;
+}
+
+.btnViewall {
+    background: #082161;
+    border-radius: 6px;
+    color: #FFFFFF;
+    width: 5vw;
+    height: 4vh;
+}
+
+.tableBar {
+    width: 569px;
+    height: 31px;
+    background: #D9D9D9;
+    position: absolute;
+    top: 17%;
+    left: 4%;
+}
+
+table {
+    width: 96%;
+}
+
+td {
+    line-height: 2.5;
+    position: relative;
+}
+
+.tableBar1 {
+    width: 346px;
+    height: 31px;
+    background: #D9D9D9;
+    position: absolute;
+    top: 17%;
+    left: 4%;
+}
+
+.newPatient {
+    width: 1120px;
+    height: 328px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    position: relative;
+    left: 20%;
+    margin-top: 30px;
+}
+.tableBar2{
+    width: 1030px;
+    height: 36px;
+    background: #D9D9D9;
+    position: absolute;
+    top: 17%;
+    left: 4%;
+}
+.delete{
+    margin-left: 15%;
+}
+.circleimage{
+    position: absolute;
+    top: 5px;
+    left:0.5%;
+}
